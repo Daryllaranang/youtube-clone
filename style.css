@@ -27,7 +27,7 @@
 
   .video-title {
     font-size: 14px;
-    width: 250px;
+    width: 300px;
     font-weight:500;
     line-height: 20px;
     margin-bottom: 10px;
@@ -61,7 +61,6 @@
     color: #606060;
   }
   .video-grid{
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
@@ -73,9 +72,6 @@
    color: white;
     bottom:9px;
     right:5px;
-   
-   
-   
 
   }
   
@@ -120,6 +116,7 @@
     border:1px solid #cccccc;
   }
   .voice-button{
+    cursor: pointer;
     width: 35px;
     height: 35px;
     margin-left: 15px;
@@ -128,35 +125,43 @@
     border: none;
   }
   .hamburger{
+    cursor: pointer;
     height: 24px;
     margin-left: 24px;
     margin-right: 24px;
   }
   .youtube-logo{
+    cursor: pointer;
     height: 24px;
     margin-left: 24px;
     margin-right: 24px;
   }
   .search-icon{
+    cursor: pointer;
     height:25px;
     margin-top: 5px;
   }
   .voice-icon{
     height:28px;
     margin: 4px;
+    cursor: pointer;
   }
   .upload-icon{
-height: 28px;
+  height: 28px;
+  cursor: pointer;
   }
 .youtube-apps-icon{
   height: 28px;
+  cursor: pointer;
 }
 .notification-icon{
+  cursor: pointer;
   height: 28px;
 }
 .laranang{
   height: 32px;
   border-radius: 15px;
+  cursor: pointer;
 }
 .youtube-Excercise {
   padding-top: 90px;
@@ -171,12 +176,30 @@ height: 28px;
   left: 0;
   bottom: 0;
   width: 72px;
-background-color: rgb(216, 190, 190);
+background-color:white;
   z-index: 1;
 }
 .side-bar-link{
-position: absolute;
-top: 30px;
-left:10px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+cursor: pointer;
+}
+.side-bar-link >p{
+   font-size: 10px;
+   line-height: 20px;
+   font-family: roboto , Arial;
+}
+.side-bar-link:hover{
+  background-color:#F5F5F5;
+  }
+.side-bar-logo{
+  height: 40px;
+}
+.side-bar-link img{
+ height: 28px;
+ display: flex;
 
 }
